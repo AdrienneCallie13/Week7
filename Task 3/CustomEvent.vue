@@ -56,7 +56,7 @@ div + div {
   color: red;
 }
 
-/* ✨ The magic ✨ */
+
 form.errors {
   :invalid {
     border-color: red;
