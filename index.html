@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <style>
+        #app1 {
+            width: 100%;
+            height: 100px;
+            background-color: lightgray;
+        }
+        
+        #app2 {
+            width: 100%;
+            height: 100px;
+            background-color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+    <div id="app1">
+        <!-- rendering the component in the first vue instance -->
+        <greeting-card></greeting-card>
+    </div>
+    <div id="app2">
+        <!-- rendering the component in the second vue instance -->
+        <greeting-card></greeting-card>
+    </div>
+</body>
+
+</html>
