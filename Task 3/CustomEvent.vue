@@ -56,7 +56,6 @@ div + div {
   color: red;
 }
 
-
 form.errors {
   :invalid {
     border-color: red;
